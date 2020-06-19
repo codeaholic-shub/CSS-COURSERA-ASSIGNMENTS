@@ -1,0 +1,104 @@
+body{
+	padding: 1%;
+	margin: 1%;
+}
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+
+}
+header{
+	background-image: url("../images/flywheel.jpg");
+	background-color: silver;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 1%;
+}
+.left img{
+	width: 60%;
+	margin-bottom: 1%;
+	margin-top: 3%;
+	margin-right: 20%;
+	margin-left: 20%;
+	border: solid 2px black;
+}
+.left{
+	padding: 1% 0;
+	background:olive;
+	width: 20%;
+	float: left;
+	
+}
+nav a{
+	border-radius: 5px;
+	padding: 15px;
+	background-color: silver;
+	color: black;
+	margin: 5%;
+	text-decoration: none;
+	background-color: rgba(218,234,213,0.60);
+	height: 20px;
+	width: 120px;
+	display: inline-block;
+}
+.right{
+	padding-left: 2%;
+	display: inline-block;
+	width: 75%;
+}
+.right p{
+	font-size: 20px;
+
+}
+table{
+	border-collapse: collapse;
+}
+table {
+	    border-collapse: collapse;
+   		width: 800px;
+   		font-family: "Courier New", Courier, monospace;
+   		font-weight: bold;
+   		font-size: 80%;
+	}
+
+	/* The table headings should have a border, background color, and at least one other image */
+	th {
+		background: #808000; /* Olive */
+		color: #FFFFFF; /* White */
+	    border: 2px solid #FFFFFF; /* White */
+		background-image: url('http://www.photos-public-domain.com/wp-content/uploads/2011/03/olive-green-parchment-paper-texture.jpg');
+   		background-repeat: no-repeat;
+	}
+
+
+	/* The table elements <td> should be styled using at least four properties */
+	td {
+		background: #E0FFFF; /* LightCyan */
+		color: #808080; /* Gray */
+		border: 2px solid #FFFFFF;
+		text-align: center;
+	}
+
+	table, td, th {
+	    margin-left: 3%;
+	    padding: 1%;
+	}
+
+	/* Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered */
+	tr th:first-child, tr td:first-child {
+		text-align: left;
+	}
+
+	/* Set the opacity of the table rows to a value between .6 and .8 (make sure it is still visible) */
+	tr td {
+		opacity: 0.8;
+	}
+
+	/* Change the opacity of a row when it is hovered over */
+	tr td:hover, tr th:hover {
+		opacity: 1.5;
+		font-size: 150%;
+
+	}
+}
